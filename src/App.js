@@ -15,7 +15,7 @@ import UserLayout from './components/layouts/UserLayout';
 function App() {
   return (
     <Provider store={store}>
-      <Router>
+      <Router basename='/Assesment'>
         <Routes>
           <Route path="/login" element={<Login />} />
           
